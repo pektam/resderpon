@@ -3,5 +3,10 @@
 *.pyo
 *.pyd
 .venv/
-**/*.db
-**/*.session
+
+# Ignore DB & session files but keep folders
+*.db
+*.session
+# Add exceptions for .gitkeep
+!accounts/.gitkeep
+!session/.gitkeep
