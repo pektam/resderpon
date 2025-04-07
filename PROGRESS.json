@@ -1,0 +1,507 @@
+{
+  "last_updated": "2025-04-07T21:43:16.098727",
+  "total_files": 22,
+  "new_files": 0,
+  "file_types": {
+    "Markdown": 1,
+    "Other": 1,
+    "Python": 19,
+    "JSON": 1
+  },
+  "daily_activity": {
+    "2025-04-07": 4,
+    "2025-04-06": 18
+  },
+  "changes_by_date": {
+    "2025-04-07": {
+      "files": [
+        {
+          "path": "README.md",
+          "time": "21:15:38",
+          "change_type": "no_change",
+          "file_type": "Markdown",
+          "lines": {
+            "total": 39,
+            "code": 24
+          },
+          "diff": {
+            "lines_added": 0,
+            "lines_removed": 0,
+            "lines_changed": 0
+          },
+          "git": null
+        },
+        {
+          "path": "logs\\2025-04-07.log",
+          "time": "20:52:56",
+          "change_type": "no_change",
+          "file_type": "Other",
+          "lines": {
+            "total": 0,
+            "code": 0
+          },
+          "diff": {
+            "lines_added": 0,
+            "lines_removed": 0,
+            "lines_changed": 0
+          },
+          "git": {
+            "commit": "d1aa7983e2ff7276f57a4a059c45248b35e8c001",
+            "author": "pektam",
+            "date": "Mon Apr 7 20:54:46 2025 +0700",
+            "message": "Update proyek 07/04/2025"
+          }
+        },
+        {
+          "path": "ui\\auto_responder.py",
+          "time": "00:28:33",
+          "change_type": "no_change",
+          "file_type": "Python",
+          "lines": {
+            "total": 311,
+            "code": 295
+          },
+          "diff": {
+            "lines_added": 0,
+            "lines_removed": 0,
+            "lines_changed": 0
+          },
+          "git": {
+            "commit": "6e585c257501f2c5caf55ec84b6f16034397b246",
+            "author": "pektam",
+            "date": "Mon Apr 7 00:53:51 2025 +0700",
+            "message": "Initial commit"
+          }
+        },
+        {
+          "path": "main.py",
+          "time": "00:14:58",
+          "change_type": "no_change",
+          "file_type": "Python",
+          "lines": {
+            "total": 72,
+            "code": 57
+          },
+          "diff": {
+            "lines_added": 0,
+            "lines_removed": 0,
+            "lines_changed": 0
+          },
+          "git": {
+            "commit": "6e585c257501f2c5caf55ec84b6f16034397b246",
+            "author": "pektam",
+            "date": "Mon Apr 7 00:53:51 2025 +0700",
+            "message": "Initial commit"
+          }
+        }
+      ],
+      "summary": {
+        "total_changes": 4,
+        "by_type": {
+          "no_change": 4
+        },
+        "by_file_type": {
+          "Markdown": 1,
+          "Other": 1,
+          "Python": 2
+        },
+        "lines_added": 0,
+        "lines_removed": 0
+      }
+    },
+    "2025-04-06": {
+      "files": [
+        {
+          "path": "ui\\account_management.py",
+          "time": "21:39:05",
+          "change_type": "no_change",
+          "file_type": "Python",
+          "lines": {
+            "total": 323,
+            "code": 283
+          },
+          "diff": {
+            "lines_added": 0,
+            "lines_removed": 0,
+            "lines_changed": 0
+          },
+          "git": {
+            "commit": "6e585c257501f2c5caf55ec84b6f16034397b246",
+            "author": "pektam",
+            "date": "Mon Apr 7 00:53:51 2025 +0700",
+            "message": "Initial commit"
+          }
+        },
+        {
+          "path": "ui\\status.py",
+          "time": "21:21:46",
+          "change_type": "no_change",
+          "file_type": "Python",
+          "lines": {
+            "total": 53,
+            "code": 47
+          },
+          "diff": {
+            "lines_added": 0,
+            "lines_removed": 0,
+            "lines_changed": 0
+          },
+          "git": {
+            "commit": "6e585c257501f2c5caf55ec84b6f16034397b246",
+            "author": "pektam",
+            "date": "Mon Apr 7 00:53:51 2025 +0700",
+            "message": "Initial commit"
+          }
+        },
+        {
+          "path": "utils\\__init__.py",
+          "time": "21:19:26",
+          "change_type": "no_change",
+          "file_type": "Python",
+          "lines": {
+            "total": 2,
+            "code": 1
+          },
+          "diff": {
+            "lines_added": 0,
+            "lines_removed": 0,
+            "lines_changed": 0
+          },
+          "git": {
+            "commit": "6e585c257501f2c5caf55ec84b6f16034397b246",
+            "author": "pektam",
+            "date": "Mon Apr 7 00:53:51 2025 +0700",
+            "message": "Initial commit"
+          }
+        },
+        {
+          "path": "ui\\__init__.py",
+          "time": "21:19:18",
+          "change_type": "no_change",
+          "file_type": "Python",
+          "lines": {
+            "total": 8,
+            "code": 7
+          },
+          "diff": {
+            "lines_added": 0,
+            "lines_removed": 0,
+            "lines_changed": 0
+          },
+          "git": {
+            "commit": "6e585c257501f2c5caf55ec84b6f16034397b246",
+            "author": "pektam",
+            "date": "Mon Apr 7 00:53:51 2025 +0700",
+            "message": "Initial commit"
+          }
+        },
+        {
+          "path": "rules\\__init__.py",
+          "time": "21:19:09",
+          "change_type": "no_change",
+          "file_type": "Python",
+          "lines": {
+            "total": 2,
+            "code": 1
+          },
+          "diff": {
+            "lines_added": 0,
+            "lines_removed": 0,
+            "lines_changed": 0
+          },
+          "git": {
+            "commit": "6e585c257501f2c5caf55ec84b6f16034397b246",
+            "author": "pektam",
+            "date": "Mon Apr 7 00:53:51 2025 +0700",
+            "message": "Initial commit"
+          }
+        },
+        {
+          "path": "telegram\\__init__.py",
+          "time": "21:18:58",
+          "change_type": "no_change",
+          "file_type": "Python",
+          "lines": {
+            "total": 3,
+            "code": 2
+          },
+          "diff": {
+            "lines_added": 0,
+            "lines_removed": 0,
+            "lines_changed": 0
+          },
+          "git": {
+            "commit": "6e585c257501f2c5caf55ec84b6f16034397b246",
+            "author": "pektam",
+            "date": "Mon Apr 7 00:53:51 2025 +0700",
+            "message": "Initial commit"
+          }
+        },
+        {
+          "path": "db\\__init__.py",
+          "time": "21:18:50",
+          "change_type": "no_change",
+          "file_type": "Python",
+          "lines": {
+            "total": 2,
+            "code": 1
+          },
+          "diff": {
+            "lines_added": 0,
+            "lines_removed": 0,
+            "lines_changed": 0
+          },
+          "git": {
+            "commit": "6e585c257501f2c5caf55ec84b6f16034397b246",
+            "author": "pektam",
+            "date": "Mon Apr 7 00:53:51 2025 +0700",
+            "message": "Initial commit"
+          }
+        },
+        {
+          "path": "ui\\task_scheduling.py",
+          "time": "21:03:43",
+          "change_type": "no_change",
+          "file_type": "Python",
+          "lines": {
+            "total": 95,
+            "code": 86
+          },
+          "diff": {
+            "lines_added": 0,
+            "lines_removed": 0,
+            "lines_changed": 0
+          },
+          "git": {
+            "commit": "6e585c257501f2c5caf55ec84b6f16034397b246",
+            "author": "pektam",
+            "date": "Mon Apr 7 00:53:51 2025 +0700",
+            "message": "Initial commit"
+          }
+        },
+        {
+          "path": "core.py",
+          "time": "21:01:39",
+          "change_type": "no_change",
+          "file_type": "Python",
+          "lines": {
+            "total": 11,
+            "code": 8
+          },
+          "diff": {
+            "lines_added": 0,
+            "lines_removed": 0,
+            "lines_changed": 0
+          },
+          "git": {
+            "commit": "6e585c257501f2c5caf55ec84b6f16034397b246",
+            "author": "pektam",
+            "date": "Mon Apr 7 00:53:51 2025 +0700",
+            "message": "Initial commit"
+          }
+        },
+        {
+          "path": "ui\\analytics.py",
+          "time": "21:00:18",
+          "change_type": "no_change",
+          "file_type": "Python",
+          "lines": {
+            "total": 89,
+            "code": 82
+          },
+          "diff": {
+            "lines_added": 0,
+            "lines_removed": 0,
+            "lines_changed": 0
+          },
+          "git": {
+            "commit": "6e585c257501f2c5caf55ec84b6f16034397b246",
+            "author": "pektam",
+            "date": "Mon Apr 7 00:53:51 2025 +0700",
+            "message": "Initial commit"
+          }
+        },
+        {
+          "path": "ui\\work_cycle.py",
+          "time": "21:00:05",
+          "change_type": "no_change",
+          "file_type": "Python",
+          "lines": {
+            "total": 63,
+            "code": 56
+          },
+          "diff": {
+            "lines_added": 0,
+            "lines_removed": 0,
+            "lines_changed": 0
+          },
+          "git": {
+            "commit": "6e585c257501f2c5caf55ec84b6f16034397b246",
+            "author": "pektam",
+            "date": "Mon Apr 7 00:53:51 2025 +0700",
+            "message": "Initial commit"
+          }
+        },
+        {
+          "path": "ui\\main_menu.py",
+          "time": "20:56:03",
+          "change_type": "no_change",
+          "file_type": "Python",
+          "lines": {
+            "total": 64,
+            "code": 58
+          },
+          "diff": {
+            "lines_added": 0,
+            "lines_removed": 0,
+            "lines_changed": 0
+          },
+          "git": {
+            "commit": "6e585c257501f2c5caf55ec84b6f16034397b246",
+            "author": "pektam",
+            "date": "Mon Apr 7 00:53:51 2025 +0700",
+            "message": "Initial commit"
+          }
+        },
+        {
+          "path": "telegram\\message_handler.py",
+          "time": "20:54:31",
+          "change_type": "no_change",
+          "file_type": "Python",
+          "lines": {
+            "total": 111,
+            "code": 108
+          },
+          "diff": {
+            "lines_added": 0,
+            "lines_removed": 0,
+            "lines_changed": 0
+          },
+          "git": {
+            "commit": "6e585c257501f2c5caf55ec84b6f16034397b246",
+            "author": "pektam",
+            "date": "Mon Apr 7 00:53:51 2025 +0700",
+            "message": "Initial commit"
+          }
+        },
+        {
+          "path": "rules\\rules_manager.py",
+          "time": "20:54:16",
+          "change_type": "no_change",
+          "file_type": "Python",
+          "lines": {
+            "total": 140,
+            "code": 138
+          },
+          "diff": {
+            "lines_added": 0,
+            "lines_removed": 0,
+            "lines_changed": 0
+          },
+          "git": {
+            "commit": "6e585c257501f2c5caf55ec84b6f16034397b246",
+            "author": "pektam",
+            "date": "Mon Apr 7 00:53:51 2025 +0700",
+            "message": "Initial commit"
+          }
+        },
+        {
+          "path": "telegram\\client_manager.py",
+          "time": "20:53:45",
+          "change_type": "no_change",
+          "file_type": "Python",
+          "lines": {
+            "total": 72,
+            "code": 69
+          },
+          "diff": {
+            "lines_added": 0,
+            "lines_removed": 0,
+            "lines_changed": 0
+          },
+          "git": {
+            "commit": "6e585c257501f2c5caf55ec84b6f16034397b246",
+            "author": "pektam",
+            "date": "Mon Apr 7 00:53:51 2025 +0700",
+            "message": "Initial commit"
+          }
+        },
+        {
+          "path": "db\\database_manager.py",
+          "time": "20:53:20",
+          "change_type": "no_change",
+          "file_type": "Python",
+          "lines": {
+            "total": 154,
+            "code": 133
+          },
+          "diff": {
+            "lines_added": 0,
+            "lines_removed": 0,
+            "lines_changed": 0
+          },
+          "git": {
+            "commit": "6e585c257501f2c5caf55ec84b6f16034397b246",
+            "author": "pektam",
+            "date": "Mon Apr 7 00:53:51 2025 +0700",
+            "message": "Initial commit"
+          }
+        },
+        {
+          "path": "utils\\helpers.py",
+          "time": "20:52:39",
+          "change_type": "no_change",
+          "file_type": "Python",
+          "lines": {
+            "total": 11,
+            "code": 9
+          },
+          "diff": {
+            "lines_added": 0,
+            "lines_removed": 0,
+            "lines_changed": 0
+          },
+          "git": {
+            "commit": "6e585c257501f2c5caf55ec84b6f16034397b246",
+            "author": "pektam",
+            "date": "Mon Apr 7 00:53:51 2025 +0700",
+            "message": "Initial commit"
+          }
+        },
+        {
+          "path": "responder_rules.json",
+          "time": "00:14:07",
+          "change_type": "no_change",
+          "file_type": "JSON",
+          "lines": {
+            "total": 12,
+            "code": 12
+          },
+          "diff": {
+            "lines_added": 0,
+            "lines_removed": 0,
+            "lines_changed": 0
+          },
+          "git": {
+            "commit": "d1aa7983e2ff7276f57a4a059c45248b35e8c001",
+            "author": "pektam",
+            "date": "Mon Apr 7 20:54:46 2025 +0700",
+            "message": "Update proyek 07/04/2025"
+          }
+        }
+      ],
+      "summary": {
+        "total_changes": 18,
+        "by_type": {
+          "no_change": 18
+        },
+        "by_file_type": {
+          "Python": 17,
+          "JSON": 1
+        },
+        "lines_added": 0,
+        "lines_removed": 0
+      }
+    }
+  }
+}
