@@ -1,8 +1,7 @@
-__pycache__/
+**pycache**/
 *.py[cod]
 *.pyo
 *.pyd
 .venv/
-*.db
-*.session
-
+**/*.db
+**/*.session
