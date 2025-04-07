@@ -3,36 +3,100 @@
 
 **1. Tujuan:**
 
-Sistem ini bertujuan untuk menyediakan platform yang fleksibel dan mudah digunakan untuk mengelola beberapa akun Telegram, mengotomatiskan respons pesan, dan menjadwalkan tugas.
+Sistem ini bertujuan untuk menyediakan platform yang fleksibel dan mudah digunakan untuk mengelola beberapa akun Telegram, mengotomatiskan respons pesan, membantu otomatisasi grup layanan investasi pengumpulan dana member, dan menjadwalkan tugas.
 
 **2. Struktur Direktori:**
 
 ```
-/
-├── core.py          # Definisi kelas utama UnlimitedLoginSystem
-├── main.py          # Titik masuk aplikasi, inisialisasi dan menjalankan sistem
-├── db/
-│   ├── __init__.py  # Membuat direktori sebagai package
-│   └── database_manager.py  # Kelas DatabaseManager
-├── telegram/
-│   ├── __init__.py  # Membuat direktori sebagai package
-│   ├── client_manager.py  # Kelas ClientManager
-│   └── message_handler.py # Kelas MessageHandler
-├── rules/
-│   ├── __init__.py  # Membuat direktori sebagai package
-│   └── rules_manager.py   # Kelas RulesManager
-├── ui/
-│   ├── __init__.py             # Membuat direktori sebagai package
-│   ├── main_menu.py            # Menangani menu utama
-│   ├── account_management.py   # Menangani penambahan, daftar, pengujian, penghapusan, pembaruan, ekspor, dan impor akun
-│   ├── auto_responder.py       # Menangani semua fungsi auto responder
-│   ├── task_scheduling.py      # Menangani penjadwalan tugas
-│   ├── work_cycle.py           # Menangani siklus kerja harian
-│   ├── analytics.py            # Menangani ekspor analitik
-│   └── status.py               # Menangani tampilan status dan statistik
-└── utils/
-    ├── __init__.py  # Membuat direktori sebagai package
-    └── helpers.py     # Fungsi-fungsi pembantu (misalnya, setup logging)
+C:\Users\haika\OneDrive\Documents\JTR PROYEK\TELEPON>
+│   core.py
+│   main.py
+│   test_modules.py
+│
+├───accounts
+│       accounts.db
+│
+├───db
+│       database_manager.py
+│       __init__.py
+│
+├───logs
+├───rules
+│       rules_manager.py
+│       __init__.py
+│
+├───session
+│       6281215869259.session
+│       6281217223230.session
+│       6281230673297.session
+│       6281230673390.session
+│       6281230673501.session
+│       6281233591014.session
+│       6281233591086.session
+│       6281252536377.session
+│       6281330159282.session
+│       6281523905143.session
+│       6281523905156.session
+│       6281523905182.session
+│       6283132030297.session
+│       6283144050076.session
+│       6283144053312.session
+│       6283144053420.session
+│       6283159213587.session
+│       6283159214412.session
+│       6283191177770.session
+│       6283830367014.session
+│       6283840145673.session
+│       6283857623194.session
+│       6283857623197.session
+│       6283857623198.session
+│       6283857623200.session
+│       6283857623201.session
+│       6285268814047.session
+│       6285607681054.session
+│       6285608949507.session
+│       6285608949530.session
+│       6285704864245.session
+│       6285706555810.session
+│       6285708589776.session
+│       6285724246794.session
+│       6285808472492.session
+│       6287782106418.session
+│       6287825508537.session
+│       62881010735370.session
+│       62881010741239.session
+│       62881022725776.session
+│       628816191342.session
+│       6288808215134.session
+│       6289518881085.session
+│       6289525935037.session
+│       62895326320515.session
+│       62895370390811.session
+│       62895605258400.session
+│       62895605258555.session
+│       62895605258600.session
+│       62895619810808.session
+│       6289678800849.session
+│       6289678800853.session
+│
+├───telegram
+│       client_manager.py
+│       message_handler.py
+│       __init__.py
+│
+├───ui
+│       account_management.py
+│       analytics.py
+│       auto_responder.py
+│       main_menu.py
+│       status.py
+│       task_scheduling.py
+│       work_cycle.py
+│       __init__.py
+│
+└───utils
+        helpers.py
+        __init__.py
 ```
 
 **3. Deskripsi Modul:**
