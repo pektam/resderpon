@@ -11,18 +11,171 @@
     "python-telegram-bot",
     "SQLAlchemy"
   ],
-  "last_updated": "2025-04-08T03:05:45.082420",
+  "last_updated": "2025-04-08T03:53:14.092177",
   "total_files": 21,
-  "new_files": 0,
+  "new_files": 1,
   "file_types": {
-    "Python": 20,
-    "JSON": 1
+    "Other": 1,
+    "JSON": 1,
+    "Python": 19
   },
   "daily_activity": {
+    "2025-04-08": 6,
     "2025-04-07": 2,
-    "2025-04-06": 19
+    "2025-04-06": 13
   },
   "changes_by_date": {
+    "2025-04-08": {
+      "files": [
+        {
+          "path": "logs\\2025-04-08.log",
+          "last_modified_timestamp": "2025-04-08T03:32:06.714101",
+          "change_type": "new_file",
+          "file_type": "Other",
+          "lines": {
+            "total": 206,
+            "code": 206
+          },
+          "diff": {
+            "lines_added": 206,
+            "lines_removed": 0,
+            "lines_changed": 0
+          },
+          "git": {
+            "commit": "1f4326ac6c513c80aaaea608388dea51b2b5bd10",
+            "author": "pektam",
+            "date": "Tue Apr 8 03:52:53 2025 +0700",
+            "message": "Update proyek 08/04/2025"
+          },
+          "code_complexity": []
+        },
+        {
+          "path": "responder_rules.json",
+          "last_modified_timestamp": "2025-04-08T03:31:50.738093",
+          "change_type": "update",
+          "file_type": "JSON",
+          "lines": {
+            "total": 12,
+            "code": 12
+          },
+          "diff": {
+            "lines_added": 1,
+            "lines_removed": 1,
+            "lines_changed": 2
+          },
+          "git": {
+            "commit": "1f4326ac6c513c80aaaea608388dea51b2b5bd10",
+            "author": "pektam",
+            "date": "Tue Apr 8 03:52:53 2025 +0700",
+            "message": "Update proyek 08/04/2025"
+          },
+          "code_complexity": []
+        },
+        {
+          "path": "ui\\status.py",
+          "last_modified_timestamp": "2025-04-08T03:30:01.909402",
+          "change_type": "bugfix",
+          "file_type": "Python",
+          "lines": {
+            "total": 817,
+            "code": 608
+          },
+          "diff": {
+            "lines_added": 768,
+            "lines_removed": 4,
+            "lines_changed": 772
+          },
+          "git": {
+            "commit": "1f4326ac6c513c80aaaea608388dea51b2b5bd10",
+            "author": "pektam",
+            "date": "Tue Apr 8 03:52:53 2025 +0700",
+            "message": "Update proyek 08/04/2025"
+          },
+          "code_complexity": []
+        },
+        {
+          "path": "ui\\analytics.py",
+          "last_modified_timestamp": "2025-04-08T03:28:53.197061",
+          "change_type": "bugfix",
+          "file_type": "Python",
+          "lines": {
+            "total": 545,
+            "code": 412
+          },
+          "diff": {
+            "lines_added": 503,
+            "lines_removed": 47,
+            "lines_changed": 550
+          },
+          "git": {
+            "commit": "1f4326ac6c513c80aaaea608388dea51b2b5bd10",
+            "author": "pektam",
+            "date": "Tue Apr 8 03:52:53 2025 +0700",
+            "message": "Update proyek 08/04/2025"
+          },
+          "code_complexity": []
+        },
+        {
+          "path": "ui\\work_cycle.py",
+          "last_modified_timestamp": "2025-04-08T03:28:42.657093",
+          "change_type": "bugfix",
+          "file_type": "Python",
+          "lines": {
+            "total": 427,
+            "code": 345
+          },
+          "diff": {
+            "lines_added": 371,
+            "lines_removed": 7,
+            "lines_changed": 378
+          },
+          "git": {
+            "commit": "1f4326ac6c513c80aaaea608388dea51b2b5bd10",
+            "author": "pektam",
+            "date": "Tue Apr 8 03:52:53 2025 +0700",
+            "message": "Update proyek 08/04/2025"
+          },
+          "code_complexity": []
+        },
+        {
+          "path": "ui\\task_scheduling.py",
+          "last_modified_timestamp": "2025-04-08T03:28:25.048757",
+          "change_type": "bugfix",
+          "file_type": "Python",
+          "lines": {
+            "total": 322,
+            "code": 258
+          },
+          "diff": {
+            "lines_added": 241,
+            "lines_removed": 14,
+            "lines_changed": 255
+          },
+          "git": {
+            "commit": "1f4326ac6c513c80aaaea608388dea51b2b5bd10",
+            "author": "pektam",
+            "date": "Tue Apr 8 03:52:53 2025 +0700",
+            "message": "Update proyek 08/04/2025"
+          },
+          "code_complexity": []
+        }
+      ],
+      "summary": {
+        "total_changes": 6,
+        "by_type": {
+          "new_file": 1,
+          "update": 1,
+          "bugfix": 4
+        },
+        "by_file_type": {
+          "Other": 1,
+          "JSON": 1,
+          "Python": 4
+        },
+        "lines_added": 2090,
+        "lines_removed": 73
+      }
+    },
     "2025-04-07": {
       "files": [
         {
@@ -92,28 +245,6 @@
           "lines": {
             "total": 323,
             "code": 283
-          },
-          "diff": {
-            "lines_added": 0,
-            "lines_removed": 0,
-            "lines_changed": 0
-          },
-          "git": {
-            "commit": "6e585c257501f2c5caf55ec84b6f16034397b246",
-            "author": "pektam",
-            "date": "Mon Apr 7 00:53:51 2025 +0700",
-            "message": "Initial commit"
-          },
-          "code_complexity": []
-        },
-        {
-          "path": "ui\\status.py",
-          "last_modified_timestamp": "2025-04-06T21:21:46.080645",
-          "change_type": "no_change",
-          "file_type": "Python",
-          "lines": {
-            "total": 53,
-            "code": 47
           },
           "diff": {
             "lines_added": 0,
@@ -239,28 +370,6 @@
           "code_complexity": []
         },
         {
-          "path": "ui\\task_scheduling.py",
-          "last_modified_timestamp": "2025-04-06T21:03:43.165924",
-          "change_type": "no_change",
-          "file_type": "Python",
-          "lines": {
-            "total": 95,
-            "code": 86
-          },
-          "diff": {
-            "lines_added": 0,
-            "lines_removed": 0,
-            "lines_changed": 0
-          },
-          "git": {
-            "commit": "6e585c257501f2c5caf55ec84b6f16034397b246",
-            "author": "pektam",
-            "date": "Mon Apr 7 00:53:51 2025 +0700",
-            "message": "Initial commit"
-          },
-          "code_complexity": []
-        },
-        {
           "path": "core.py",
           "last_modified_timestamp": "2025-04-06T21:01:39.819072",
           "change_type": "no_change",
@@ -268,50 +377,6 @@
           "lines": {
             "total": 11,
             "code": 8
-          },
-          "diff": {
-            "lines_added": 0,
-            "lines_removed": 0,
-            "lines_changed": 0
-          },
-          "git": {
-            "commit": "6e585c257501f2c5caf55ec84b6f16034397b246",
-            "author": "pektam",
-            "date": "Mon Apr 7 00:53:51 2025 +0700",
-            "message": "Initial commit"
-          },
-          "code_complexity": []
-        },
-        {
-          "path": "ui\\analytics.py",
-          "last_modified_timestamp": "2025-04-06T21:00:18.020913",
-          "change_type": "no_change",
-          "file_type": "Python",
-          "lines": {
-            "total": 89,
-            "code": 82
-          },
-          "diff": {
-            "lines_added": 0,
-            "lines_removed": 0,
-            "lines_changed": 0
-          },
-          "git": {
-            "commit": "6e585c257501f2c5caf55ec84b6f16034397b246",
-            "author": "pektam",
-            "date": "Mon Apr 7 00:53:51 2025 +0700",
-            "message": "Initial commit"
-          },
-          "code_complexity": []
-        },
-        {
-          "path": "ui\\work_cycle.py",
-          "last_modified_timestamp": "2025-04-06T21:00:05.946420",
-          "change_type": "no_change",
-          "file_type": "Python",
-          "lines": {
-            "total": 63,
-            "code": 56
           },
           "diff": {
             "lines_added": 0,
@@ -457,55 +522,15 @@
             "message": "Initial commit"
           },
           "code_complexity": []
-        },
-        {
-          "path": "new.py",
-          "last_modified_timestamp": "2025-04-06T11:11:31.495443",
-          "change_type": "no_change",
-          "file_type": "Python",
-          "lines": {
-            "total": 209,
-            "code": 180
-          },
-          "diff": {
-            "lines_added": 0,
-            "lines_removed": 0,
-            "lines_changed": 0
-          },
-          "git": [],
-          "code_complexity": []
-        },
-        {
-          "path": "responder_rules.json",
-          "last_modified_timestamp": "2025-04-06T00:14:07.653510",
-          "change_type": "no_change",
-          "file_type": "JSON",
-          "lines": {
-            "total": 12,
-            "code": 12
-          },
-          "diff": {
-            "lines_added": 0,
-            "lines_removed": 0,
-            "lines_changed": 0
-          },
-          "git": {
-            "commit": "d1aa7983e2ff7276f57a4a059c45248b35e8c001",
-            "author": "pektam",
-            "date": "Mon Apr 7 20:54:46 2025 +0700",
-            "message": "Update proyek 07/04/2025"
-          },
-          "code_complexity": []
         }
       ],
       "summary": {
-        "total_changes": 19,
+        "total_changes": 13,
         "by_type": {
-          "no_change": 19
+          "no_change": 13
         },
         "by_file_type": {
-          "Python": 18,
-          "JSON": 1
+          "Python": 13
         },
         "lines_added": 0,
         "lines_removed": 0
