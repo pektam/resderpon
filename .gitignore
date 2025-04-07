@@ -4,7 +4,7 @@
 *.pyd
 .venv/
 .savetogithub.bat
-progress_tracker.py
+.progress_tracker.py
 .PROGRESS.md
 
 # Ignore DB & session files but keep folders
