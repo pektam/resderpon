@@ -1,31 +1,8 @@
-# Python
 __pycache__/
 *.py[cod]
 *.pyo
 *.pyd
-
-# Virtual environment
 .venv/
-venv/
-
-# VSCode settings (opsional)
-.vscode/
-
-# Logs
-logs/
-*.log
-
-# Databases
 *.db
+*.session
 
-# Session files
-session/*.session
-
-# OneDrive artifacts (kadang muncul aneh-aneh)
-*.tmp
-*.bak
-~$*
-
-# OS files
-.DS_Store
-Thumbs.db
