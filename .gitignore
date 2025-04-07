@@ -3,6 +3,7 @@
 *.pyo
 *.pyd
 .venv/
+savetogithub.bat
 
 # Ignore DB & session files but keep folders
 *.db
